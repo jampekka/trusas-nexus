@@ -28,7 +28,8 @@ void output_samples(const auto channels, const auto samples) {
 		{"ts", ts},
 		data
 		});
-	std::cout << out << std::endl; 
+	std::cout << out << std::endl;
+	std::cout.flush();	
 }
 
 int main(int argc, char **argv)
